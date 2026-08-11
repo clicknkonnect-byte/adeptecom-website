@@ -1,0 +1,9 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Build / temp
+_*.py
+*.log
+node_modules/
