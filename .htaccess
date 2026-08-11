@@ -7,6 +7,12 @@ RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} !^www\. [NC]
 RewriteRule ^ https://www.adeptecom.com%{REQUEST_URI} [L,R=301]
 
+# Keep repo/ops files out of the public site (they still live in the private repo)
+RedirectMatch 404 ^/\.git
+RedirectMatch 404 ^/docs(/|$)
+RedirectMatch 404 ^/README\.md$
+RedirectMatch 404 ^/\.gitignore$
+
 ErrorDocument 404 /404.html
 
 <IfModule mod_expires.c>
