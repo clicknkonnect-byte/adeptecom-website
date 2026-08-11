@@ -1,0 +1,4 @@
+# Cloudflare Pages — keep internal/unused files off the public site
+/docs/*        /404.html   404
+/README.md     /404.html   404
+/contact.php   /404.html   404
