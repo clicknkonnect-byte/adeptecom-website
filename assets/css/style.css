@@ -327,6 +327,9 @@ ul{margin:0;padding:0;list-style:none}
   .grid-2{grid-template-columns:1fr}
   .nav-links,.nav-cta .btn{display:none}
   .burger{display:block}
+  .nav{position:relative;justify-content:center}
+  .brand{margin-inline:auto}
+  .nav-cta{position:absolute;right:0;top:50%;transform:translateY(-50%)}
   .head.open .nav-links{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:#DCEBFB;
     border-bottom:1px solid var(--line);padding:14px;gap:2px;box-shadow:var(--shadow)}
   .head.open .nav-links a{padding:13px;font-size:16px}
