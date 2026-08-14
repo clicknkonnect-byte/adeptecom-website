@@ -703,3 +703,21 @@ ul{margin:0;padding:0;list-style:none}
 .post ul.bullets li{position:relative;padding-left:26px;margin-bottom:10px;color:#2b3b4a}
 .post ul.bullets li::before{content:"";position:absolute;left:2px;top:9px;width:8px;height:8px;border-radius:50%;background:var(--orange)}
 .post .callout{background:var(--paper);border:1px solid var(--line);border-left:3px solid var(--orange);border-radius:12px;padding:16px 18px;margin:0 0 1.2em}
+
+/* ===== Mobile polish ===== */
+@media (max-width:560px){
+  .globe-hero{width:min(74%,300px)}
+  .hero-grid{gap:22px}
+  .hero .lead{margin-bottom:22px}
+  .badge-pill{font-size:12px}
+  .hero-trust{gap:14px}
+  .hero-trust .divide{display:none}
+  .dhead{gap:10px}
+  .section{padding-top:clamp(46px,11vw,110px);padding-bottom:clamp(46px,11vw,110px)}
+}
+@media (max-width:380px){
+  .globe-hero{width:min(80%,270px)}
+  .h-hero{font-size:clamp(29px,8.4vw,34px)}
+  .btn{font-size:14.5px;padding:14px 20px}
+  .btn--lg{padding:15px 22px;font-size:15px}
+}
