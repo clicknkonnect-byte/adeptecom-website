@@ -28,8 +28,10 @@ $body .= "Message:\n$message\n";
 
 $headers  = "From: Adeptecom Website <info@adeptecom.com>\r\n";
 $headers .= "Reply-To: $name <$email>\r\n";
+$headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+$headers .= "X-Mailer: PHP/adeptecom-contact\r\n";
 
-if (@mail($to, $subject, $body, $headers)) { header("Location: index.html?sent=1#contact"); }
+if (@mail($to, $subject, $body, $headers, "-f info@adeptecom.com")) { header("Location: index.html?sent=1#contact"); }
 else { header("Location: index.html?error=1#contact"); }
 exit;

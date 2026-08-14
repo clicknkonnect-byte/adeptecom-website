@@ -312,6 +312,7 @@ ul{margin:0;padding:0;list-style:none}
 @media (max-width:1040px){
   .foot-grid{grid-template-columns:1fr 1fr}
   .rating-wrap,.contact-split{grid-template-columns:1fr}
+  .contact-split .form-card{order:-1}
   .rating-card{max-width:420px}
 }
 @media (max-width:900px){
