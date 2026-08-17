@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Why Meta's In-Platform ROAS Lies (and What to Track Instead) | Adeptecom</title>
+<meta name="description" content="Meta's dashboard almost always overstates your return. Here's why in-platform ROAS is structurally inflated, and the blended metrics, CAPI setup, and holdout tests that tell you the truth.">
+<link rel="canonical" href="https://www.adeptecom.com/blog-meta-ads-roas-truth.html">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta name="theme-color" content="#0E2338">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Adeptecom">
+<meta property="og:title" content="Why Meta's In-Platform ROAS Lies (and What to Track Instead)">
+<meta property="og:description" content="Why in-platform ROAS is structurally inflated, and the blended metrics and holdout tests that tell you the truth.">
+<meta property="og:url" content="https://www.adeptecom.com/blog-meta-ads-roas-truth.html">
+<meta property="og:image" content="https://www.adeptecom.com/assets/img/services/ads.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Why Meta's In-Platform ROAS Lies (and What to Track Instead)">
+<meta name="twitter:description" content="Why in-platform ROAS is structurally inflated, and the blended metrics and holdout tests that tell you the truth.">
+<meta name="twitter:image" content="https://www.adeptecom.com/assets/img/services/ads.jpg">
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon-A.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/img/favicon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","headline":"Why Meta's In-Platform ROAS Lies (and What to Track Instead)","description":"Why in-platform ROAS is structurally inflated, and the blended metrics, CAPI setup, and holdout tests that tell you the truth.","image":"https://www.adeptecom.com/assets/img/services/ads.jpg","datePublished":"2026-08-17","dateModified":"2026-08-17","author":{"@type":"Organization","name":"Adeptecom"},"publisher":{"@type":"Organization","name":"Adeptecom","logo":{"@type":"ImageObject","url":"https://www.adeptecom.com/assets/img/favicon-512.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.adeptecom.com/blog-meta-ads-roas-truth.html"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.adeptecom.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.adeptecom.com/blog.html"},{"@type":"ListItem","position":3,"name":"Why Meta ROAS Lies","item":"https://www.adeptecom.com/blog-meta-ads-roas-truth.html"}]}
+</script>
+</head>
+<body>
+
+<header class="head">
+  <div class="wrap">
+    <nav class="nav">
+      <a class="brand" href="index.html" aria-label="Adeptecom"><img src="assets/img/adeptecom-logo.png" alt="Adeptecom" width="640" height="456"></a>
+      <div class="nav-links">
+        <a href="index.html#services">Services</a>
+        <a href="index.html#results">Results</a>
+        <a href="index.html#reviews">Reviews</a>
+        <a href="blog.html">Blog</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+      <div class="nav-cta">
+        <a class="btn btn--dark" href="index.html#contact">Get a quote <span class="arw">&rarr;</span></a>
+        <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<article class="section" style="padding-bottom:clamp(30px,4vw,44px)">
+  <div class="wrap">
+    <div class="post">
+      <div class="crumb"><a href="index.html">Home</a><span class="sep">&rsaquo;</span><a href="blog.html">Blog</a><span class="sep">&rsaquo;</span><span>Meta ROAS</span></div>
+      <h1 class="h-1" style="margin-top:12px">Why Meta&rsquo;s in-platform ROAS lies (and what to track instead)</h1>
+      <div class="post-meta"><span class="cat">Meta Ads</span><span>17 August 2026</span><span>&middot;</span><span>6 min read</span></div>
+    </div>
+  </div>
+  <div class="wrap"><div class="post-cover"><img src="assets/img/services/ads.jpg" alt="Meta Ads dashboard reporting overstated ROAS" width="1100" height="620"></div></div>
+  <div class="wrap">
+    <div class="post">
+      <p>Open Ads Manager and the ROAS column looks great. Pull the number against actual store revenue and it almost never matches. That gap isn&rsquo;t a tracking bug you can patch &mdash; it&rsquo;s how the platform is built to report. Here&rsquo;s why the number is structurally inflated, and what to look at instead.</p>
+
+      <h2>Why the number is inflated by design</h2>
+      <p>Meta gets credit for a sale under generous rules: a <strong>1-day view</strong> window (someone scrolled past your ad and bought a day later &mdash; counted) and a <strong>7-day click</strong> window (they clicked once, browsed, and bought a week later through a completely different path &mdash; still counted). Neither proves the ad caused the sale. It just proves Meta was somewhere in the picture, and the platform is incentivised to take credit for as much as the attribution rules allow.</p>
+
+      <h2>Three ways it double-counts you</h2>
+      <ul class="bullets">
+        <li><strong>Overlapping campaigns:</strong> run prospecting and retargeting at once and the same buyer can get &ldquo;credited&rdquo; to both, inflating combined ROAS beyond what actually happened.</li>
+        <li><strong>Cross-channel halo:</strong> a customer who saw your TikTok Shop video, then your Meta ad, then searched your brand on Google gets attributed fully to whichever platform&rsquo;s pixel fires last &mdash; usually Meta, since it&rsquo;s aggressive about claiming the touch.</li>
+        <li><strong>Organic and branded demand:</strong> people who already knew your brand and would have bought anyway still count as an ad-driven sale if they happened to see or click one on the way.</li>
+      </ul>
+
+      <div class="callout">A brand spending across TikTok Shop, Meta, and Google will often see combined platform-reported revenue that&rsquo;s 20&ndash;40% higher than what actually lands in the bank. That gap is the cost of trusting the dashboard.</div>
+
+      <h2>Signs your ROAS number is more fiction than fact</h2>
+      <ul class="bullets">
+        <li><strong>The math never quite adds up.</strong> Sum every channel&rsquo;s self-reported revenue and it&rsquo;s consistently higher than what actually landed in the store &mdash; a sign of overlapping credit, not a fluke.</li>
+        <li><strong>ROAS jumps when you pause other channels.</strong> If turning off Google or TikTok ads barely moves total revenue, Meta wasn&rsquo;t driving as much incremental demand as its dashboard claimed.</li>
+        <li><strong>Retargeting looks unbelievably efficient.</strong> Warm-audience campaigns almost always show inflated ROAS because they&rsquo;re catching people who were already about to buy.</li>
+        <li><strong>The number moved but nothing else changed.</strong> A sudden ROAS jump with flat spend and flat creative is usually an attribution-window quirk, not a real performance shift.</li>
+      </ul>
+
+      <h2>What to track instead</h2>
+      <p>None of this means stop advertising on Meta &mdash; it means stop making budget decisions off Meta&rsquo;s own scoreboard. Use metrics anchored to your actual revenue:</p>
+      <ul class="bullets">
+        <li><strong>Blended ROAS / MER:</strong> total revenue from your store divided by total ad spend across every channel, for the same period. Simple, and it can&rsquo;t double-count.</li>
+        <li><strong>CAC by cohort:</strong> what it actually costs to acquire a customer, tracked against lifetime value, not last-click cost.</li>
+        <li><strong>Clean Pixel + Conversions API:</strong> server-side events deduplicated against browser events, so at least the input data is accurate even before you touch attribution logic.</li>
+        <li><strong>Incrementality tests:</strong> geo or audience holdouts that turn a campaign off for a slice of your market and measure the real revenue delta &mdash; the only method that proves causation, not correlation.</li>
+        <li><strong>A single source of truth:</strong> one dashboard reconciling store revenue against total spend, refreshed daily, that every other number gets checked against.</li>
+      </ul>
+
+      <h2>Build the source of truth once</h2>
+      <p>Most accounts never get an honest read because nobody owns the reconciliation &mdash; each platform reports its own number and nobody adds it all up against what actually shipped. Once you build that blended view, decisions get simpler: you scale what moves the top-line number, not what a platform decided to take credit for. It also exposes the real winners: campaigns that look mediocre in-platform sometimes carry more incremental weight than the ones with the flashiest self-reported ROAS.</p>
+      <p>A basic holdout test is easier to run than most teams expect: pick a geography or audience segment, exclude it from a campaign for two to four weeks, and compare its revenue to a similar segment that still saw ads. The gap between the two is your real incremental lift &mdash; not the number Ads Manager reports, but the number your bank account would agree with. Run it once a quarter on your biggest campaigns and you&rsquo;ll know within a few percentage points how much of your &ldquo;ROAS&rdquo; was ever real.</p>
+      <p>This is exactly the tracking and reporting layer we build into every <a href="service-meta-ads.html">Meta Ads</a> account we manage &mdash; clean Pixel and CAPI, blended reporting against real revenue, and scaling decisions made on what the holdout data actually shows.</p>
+    </div>
+  </div>
+</article>
+
+<section class="section section--tight">
+  <div class="wrap">
+    <div class="cta-band reveal">
+      <svg class="arc-bg" viewBox="0 0 400 400" fill="none" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><circle cx="330" cy="70" r="120" stroke="#1E7FD4" stroke-opacity=".35" stroke-width="1.5"/><circle cx="330" cy="70" r="175" stroke="#ffffff" stroke-opacity=".08" stroke-width="1.5"/><path d="M210 70a120 120 0 0 1 120-120" stroke="#F5921E" stroke-width="3" stroke-linecap="round"/><circle cx="210" cy="70" r="4" fill="#F5921E"/></svg>
+      <h2 class="h-1">Ready to see what Meta is really driving?</h2>
+      <p>Tell us your brand and market and we&rsquo;ll show you blended return, not the platform&rsquo;s. No lock-in, no fluff.</p>
+      <div class="btns">
+        <a class="btn btn--lg" href="index.html#contact">Get a quote <span class="arw">&rarr;</span></a>
+        <a class="btn btn--ghost btn--lg" href="https://wa.me/923454248807" target="_blank" rel="noopener">Chat on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <svg class="arc-bg" viewBox="0 0 400 400" fill="none" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><circle cx="330" cy="70" r="120" stroke="#1E7FD4" stroke-opacity=".35" stroke-width="1.5"/><circle cx="330" cy="70" r="175" stroke="#ffffff" stroke-opacity=".08" stroke-width="1.5"/><path d="M210 70a120 120 0 0 1 120-120" stroke="#F5921E" stroke-width="3" stroke-linecap="round"/><circle cx="210" cy="70" r="4" fill="#F5921E"/></svg>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <span class="foot-logo"><img src="assets/img/adeptecom-logo.png" alt="Adeptecom"></span>
+        <p class="foot-about">A full-service TikTok Shop and performance marketing agency. We help brands launch, manage, and scale across every channel that sells.</p>
+      </div>
+      <div class="foot-col">
+        <h5>Services</h5>
+        <a href="service-tiktok-shop.html">TikTok Shop &amp; Affiliate</a>
+        <a href="service-amazon.html">Amazon Brand &amp; PPC</a>
+        <a href="service-meta-ads.html">Meta Ads</a>
+        <a href="service-google-ads.html">Google Ads &amp; SEO</a>
+        <a href="service-shopify.html">Shopify Store Management</a>
+        <a href="service-ai-automation.html">AI Automation</a>
+      </div>
+      <div class="foot-col">
+        <h5>Get in touch</h5>
+        <a href="mailto:info@adeptecom.com">info@adeptecom.com</a>
+        <a href="https://wa.me/923454248807" target="_blank" rel="noopener">WhatsApp +92 345 4248807</a>
+        <a href="blog.html">Blog</a>
+      </div>
+    </div>
+    <div class="foot-bar">
+      <span>&copy; <span id="yr">2026</span> Adeptecom. All rights reserved.</span>
+      <span>Opening New Vistas. Work around the globe.</span>
+    </div>
+  </div>
+</footer>
+<a class="wa-float" href="https://wa.me/923454248807" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C9 3 3.4 8.6 3.4 15.6c0 2.3.6 4.5 1.8 6.4L3 29l7.2-2.1a12.5 12.5 0 0 0 5.8 1.5h.1c7 0 12.6-5.6 12.6-12.6S23 3 16 3zm7.4 17.9c-.3.9-1.8 1.7-2.5 1.8-.6.1-1.4.1-2.3-.1-.5-.2-1.2-.4-2.1-.8-3.7-1.6-6.1-5.3-6.3-5.6-.2-.2-1.5-2-1.5-3.8s.9-2.7 1.3-3.1c.3-.4.7-.4 1-.4h.7c.2 0 .5-.1.8.6.3.7 1 2.4 1.1 2.6.1.2.1.4 0 .6-.4.9-.9 1.2-.4 2 .8 1.4 1.8 2.3 3.2 3 .3.1.5.1.7-.1.2-.2.8-.9 1-1.2.2-.3.4-.2.7-.1.3.1 2 .9 2.3 1.1.3.2.6.2.6.4.1.1.1.8-.1 1.7z"/></svg>
+  <span class="lbl">Chat with us</span>
+</a>
+<div class="cursor-dot" aria-hidden="true"></div>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
