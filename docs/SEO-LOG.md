@@ -15,10 +15,31 @@ Running log maintained by the weekly SEO routine. Newest entries on top.
 | google ads ecommerce agency | Med | service-google-ads.html | |
 | google merchant center disapprovals | Med | service-google-ads.html, blog-google-merchant-center-disapprovals.html | new post targets this long-tail this week |
 | shopify store management | Med | service-shopify.html | |
+| shopify conversion rate optimization | Med | service-shopify.html, blog-shopify-cro-leaks.html | new post targets this long-tail this week |
 | ai marketing automation agency | High | service-ai-automation.html | differentiator |
 | us uk tiktok creators | Med | service-tiktok-shop.html | |
 
 _No `docs/gsc-latest.csv` found this run — table maintained from the seed keyword list. Drop real Google Search Console export at that path to switch to live query data (top queries, clicks, impressions, position)._
+
+---
+
+## Week of 2026-08-31
+**New blog post:** [10 Shopify conversion leaks quietly costing you sales](https://www.adeptecom.com/blog-shopify-cro-leaks.html) — `blog-shopify-cro-leaks.html`. Targets "shopify conversion rate optimization" and related CRO long-tail queries; card added to top of blog.html grid; URL added to sitemap.xml; homepage + blog.html lastmod bumped to 2026-08-31.
+
+**On-page refresh:** `service-shopify.html` — added a new FAQ entry ("What kind of conversion leaks do you usually find?") linking into the new post, and bumped its sitemap lastmod to 2026-08-31. Single H1, meta description, and image alts confirmed still accurate; kept the change small.
+
+**Keyword notes:** No GSC export present (`docs/gsc-latest.csv` missing) — watchlist maintained from the seed list above, with a new row added for "shopify conversion rate optimization" targeting this week's post. This week's on-page work targeted the Shopify page since it had no supporting FAQ or internal link into blog content yet.
+
+**GEO / LLM crawlers:** `llms.txt` reviewed — services, results, and contact info current, no changes needed. `robots.txt` confirmed still allowing GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-Web, anthropic-ai, PerplexityBot, Google-Extended, Applebot-Extended, Bingbot, CCBot.
+
+**Backlink / directory batch — submit these (rotation 3 of 4):**
+1. **Bing Places** — https://www.bingplaces.com/ — Category: `Marketing Agency` / `Advertising Agency`. Paste: "Adeptecom is an AI-run, full-service TikTok Shop and performance-marketing agency for US & UK e-commerce brands. We connect every channel through its official API and run continuous audits, research, and scaling with AI agents — TikTok Shop & affiliate, Amazon brand & PPC, Meta & Google Ads, Shopify, and SEO. $100M+ revenue driven across 80+ brands." Website: https://www.adeptecom.com
+2. **Trustpilot** — https://business.trustpilot.com/signup — Category: `Marketing Agency`. Paste the same description above; website field: https://www.adeptecom.com
+3. **Shopify Partners directory** — https://www.shopify.com/partners/directory — Apply as a Shopify Partner agency. Category: `Marketing & Sales` / `Conversion rate optimization`. Paste the same description above.
+4. **TikTok Shop Partner directory** — https://partner.tiktokshop.com/ — Apply as an agency partner (Partner Center). Category: `Marketing Agency Partner`. Paste the same description above.
+5. **Yelp** — https://biz.yelp.com/ — Category: `Marketing Agency`. Paste the same description above; website field: https://www.adeptecom.com
+
+_Next rotation (week of 2026-09-07) picks up at: Yellow Pages, Qatar/UAE local business directories (full list then repeats from Google Business Profile)._
 
 ---
 
