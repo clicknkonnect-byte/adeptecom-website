@@ -15,11 +15,32 @@ Running log maintained by the weekly SEO routine. Newest entries on top.
 | google ads ecommerce agency | Med | service-google-ads.html | |
 | google merchant center disapprovals | Med | service-google-ads.html, blog-google-merchant-center-disapprovals.html | new post targets this long-tail this week |
 | shopify store management | Med | service-shopify.html | |
-| shopify conversion rate optimization | Med | service-shopify.html, blog-shopify-cro-leaks.html | new post targets this long-tail this week |
+| shopify conversion rate optimization | Med | service-shopify.html, blog-shopify-cro-leaks.html | |
+| best tiktok shop agency / how to choose | High | service-tiktok-shop.html, blog-best-tiktok-shop-agencies-2026.html | new post targets this buyer-intent long-tail this week |
 | ai marketing automation agency | High | service-ai-automation.html | differentiator |
 | us uk tiktok creators | Med | service-tiktok-shop.html | |
 
 _No `docs/gsc-latest.csv` found this run — table maintained from the seed keyword list. Drop real Google Search Console export at that path to switch to live query data (top queries, clicks, impressions, position)._
+
+---
+
+## Week of 2026-09-07
+**New blog post:** [How to choose a TikTok Shop agency in 2026 (buyer's guide)](https://www.adeptecom.com/blog-best-tiktok-shop-agencies-2026.html) — `blog-best-tiktok-shop-agencies-2026.html`. Completes the original 8-post content calendar. Targets buyer-intent long-tail queries around "best tiktok shop agency" / "how to choose a tiktok shop agency"; card added to top of blog.html grid; URL added to sitemap.xml; homepage + blog.html lastmod bumped to 2026-09-07.
+
+**On-page refresh:** `service-tiktok-shop.html` — added a new FAQ entry ("What should I check before hiring any TikTok Shop agency?") linking into the new post, and bumped its sitemap lastmod to 2026-09-07. Single H1, meta description, and image alts confirmed still accurate; kept the change small.
+
+**Keyword notes:** No GSC export present (`docs/gsc-latest.csv` missing) — watchlist maintained from the seed list above, with a new row added for "best tiktok shop agency / how to choose" targeting this week's post. The original content calendar (items 1&ndash;8) is now fully published; future weeks pick one new topic per week across TikTok Shop, Amazon, Meta/Google Ads, Shopify, SEO, and AI automation.
+
+**GEO / LLM crawlers:** `llms.txt` reviewed — services, results, and contact info current, no changes needed. `robots.txt` confirmed still allowing GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-Web, anthropic-ai, PerplexityBot, Google-Extended, Applebot-Extended, Bingbot, CCBot.
+
+**Backlink / directory batch — submit these (rotation 4 of 4, plus wraparound):**
+1. **Yellow Pages** — https://www.yellowpages.com/claim-a-business — Category: `Marketing Consultants` / `Internet Marketing & Advertising`. Paste: "Adeptecom is an AI-run, full-service TikTok Shop and performance-marketing agency for US & UK e-commerce brands. We connect every channel through its official API and run continuous audits, research, and scaling with AI agents — TikTok Shop & affiliate, Amazon brand & PPC, Meta & Google Ads, Shopify, and SEO. $100M+ revenue driven across 80+ brands." Website: https://www.adeptecom.com
+2. **Qatar local business directory (Qatar Yellow Pages)** — https://www.qataryp.com/ — Category: `Marketing & Advertising Agencies`. Paste the same description above; list the Doha office address.
+3. **UAE local business directory (Yellow Pages UAE)** — https://www.yellowpages-uae.com/ — Category: `Advertising & Marketing`. Paste the same description above; website field: https://www.adeptecom.com
+4. **Google Business Profile** — https://www.google.com/business/ — verify/refresh the listing created in the week-of-2026-08-17 rotation is live and complete (hours, services, Doha address); add the new blog post as a Google Business post if the profile is active.
+5. **Clutch** — https://clutch.co/directory/submit-service-provider — check the week-of-2026-08-17 submission status; if still pending, re-submit with Category: `Digital Marketing Agencies` (sub-filter: Social Media Marketing / E-commerce Marketing) and the same description above.
+
+_Next rotation (week of 2026-09-14) restarts the full list: Bing Places, DesignRush, Sortlist, GoodFirms, The Manifest (first-pass items already submitted — this pass double-checks live status and refreshes descriptions where needed)._
 
 ---
 
