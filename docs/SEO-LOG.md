@@ -9,7 +9,7 @@ Running log maintained by the weekly SEO routine. Newest entries on top.
 | tiktok shop management | High | service-tiktok-shop.html | |
 | tiktok shop setup | Med | service-tiktok-shop.html | |
 | amazon brand management agency | High | service-amazon.html | |
-| amazon ppc agency | Med | service-amazon.html | |
+| amazon ppc agency | Med | service-amazon.html, blog-amazon-ppc-mistakes.html | new post targets ACOS/PPC-mistake long-tail this week |
 | meta ads agency ecommerce | Med | service-meta-ads.html | |
 | meta ads roas / attribution | Med | service-meta-ads.html, blog-meta-ads-roas-truth.html | new post targets this long-tail this week |
 | google ads ecommerce agency | Med | service-google-ads.html | |
@@ -21,6 +21,26 @@ Running log maintained by the weekly SEO routine. Newest entries on top.
 | us uk tiktok creators | Med | service-tiktok-shop.html | |
 
 _No `docs/gsc-latest.csv` found this run — table maintained from the seed keyword list. Drop real Google Search Console export at that path to switch to live query data (top queries, clicks, impressions, position)._
+
+---
+
+## Week of 2026-09-14
+**New blog post:** [7 Amazon PPC mistakes quietly inflating your ACOS](https://www.adeptecom.com/blog-amazon-ppc-mistakes.html) — `blog-amazon-ppc-mistakes.html`. First post since the original 8-post calendar finished; targets "amazon ppc agency" / "amazon ppc mistakes" / "amazon acos too high" long-tail queries with a structure-problem checklist (brand defense, auto vs. manual overlap, negatives, budget pacing, ACOS-vs-profit, Sponsored Brands/Display, listing readiness). Card added to top of blog.html grid; URL added to sitemap.xml; homepage + blog.html lastmod bumped to 2026-09-14.
+
+**On-page refresh:** `service-amazon.html` — added a new FAQ entry ("Why is my ACOS climbing even though I haven't changed anything?") linking into the new post, and bumped its sitemap lastmod to 2026-09-14. Single H1, meta description, and image alts confirmed still accurate; kept the change small.
+
+**Keyword notes:** No GSC export present (`docs/gsc-latest.csv` missing) — watchlist maintained from the seed list above, with the "amazon ppc agency" row updated to point at this week's post. Amazon was the highest-value gap left: it had a service page and stats but no supporting blog content or FAQ link, same pattern that drove picks in prior weeks.
+
+**GEO / LLM crawlers:** `llms.txt` reviewed — services, results, and contact info current, no changes needed. `robots.txt` confirmed still allowing GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-Web, anthropic-ai, PerplexityBot, Google-Extended, Applebot-Extended, Bingbot, CCBot.
+
+**Backlink / directory batch — submit these (rotation 1 of 4, second pass):**
+1. **Bing Places** — https://www.bingplaces.com/ — Category: `Marketing Agency` / `Advertising Agency`. Check the week-of-2026-08-31 submission is live; if not yet approved, resubmit with: "Adeptecom is an AI-run, full-service TikTok Shop and performance-marketing agency for US & UK e-commerce brands. We connect every channel through its official API and run continuous audits, research, and scaling with AI agents — TikTok Shop & affiliate, Amazon brand & PPC, Meta & Google Ads, Shopify, and SEO. $100M+ revenue driven across 80+ brands." Website: https://www.adeptecom.com
+2. **DesignRush** — https://www.designrush.com/agency/get-listed — Category: `Digital Marketing Agencies` (sub-filter: E-commerce Marketing / Social Media Marketing). Confirm the week-of-2026-08-24 listing is live; refresh the description to the paste above if it's still the older short version.
+3. **Sortlist** — https://www.sortlist.com/agency/create — Category: `E-commerce Marketing` / `Social Media Marketing`. Confirm live status from the week-of-2026-08-24 submission; paste the same description above if the profile needs completing.
+4. **GoodFirms** — https://www.goodfirms.co/add-company — Category: `Digital Marketing` → `E-commerce Marketing Agencies`. Confirm live status; add the new Amazon PPC post as a portfolio/case-study link if the profile supports one.
+5. **The Manifest** — https://themanifest.com/add-company — Category: `Digital Marketing` → `E-commerce Marketing Agencies`. Confirm live status from the week-of-2026-08-17 submission; refresh the description to the paste above if needed.
+
+_Next rotation (week of 2026-09-21) continues the second pass: UpCity, Agency Spotter, Crunchbase, LinkedIn company page, Google Business Profile._
 
 ---
 
