@@ -9,7 +9,8 @@ Running log maintained by the weekly SEO routine. Newest entries on top.
 | tiktok shop management | High | service-tiktok-shop.html | |
 | tiktok shop setup | Med | service-tiktok-shop.html | |
 | amazon brand management agency | High | service-amazon.html | |
-| amazon ppc agency | Med | service-amazon.html, blog-amazon-ppc-mistakes.html | new post targets ACOS/PPC-mistake long-tail this week |
+| amazon ppc agency | Med | service-amazon.html, blog-amazon-ppc-mistakes.html | |
+| ecommerce technical seo checklist | Med | service-seo.html, blog-ecommerce-technical-seo-checklist.html | new post targets this long-tail this week; SEO page had no supporting blog content before this |
 | meta ads agency ecommerce | Med | service-meta-ads.html | |
 | meta ads roas / attribution | Med | service-meta-ads.html, blog-meta-ads-roas-truth.html | new post targets this long-tail this week |
 | google ads ecommerce agency | Med | service-google-ads.html | |
@@ -21,6 +22,28 @@ Running log maintained by the weekly SEO routine. Newest entries on top.
 | us uk tiktok creators | Med | service-tiktok-shop.html | |
 
 _No `docs/gsc-latest.csv` found this run — table maintained from the seed keyword list. Drop real Google Search Console export at that path to switch to live query data (top queries, clicks, impressions, position)._
+
+---
+
+## Week of 2026-09-21
+**New blog post:** [The e-commerce technical SEO checklist that actually moves rankings](https://www.adeptecom.com/blog-ecommerce-technical-seo-checklist.html) — `blog-ecommerce-technical-seo-checklist.html`. Targets "ecommerce technical seo checklist" and related crawlability/site-speed/structured-data long-tail queries; card added to top of blog.html grid; URL added to sitemap.xml; homepage + blog.html lastmod bumped to 2026-09-21.
+
+**On-page refresh:** `service-seo.html` — added a new FAQ entry ("What technical issues do you check first?") linking into the new post, and bumped its sitemap lastmod to 2026-09-21. This was the highest-value gap left: the SEO service page had no supporting blog content or internal link into any post at all, the same pattern that drove picks in prior weeks for Amazon, Shopify, Meta, and Google Ads. Single H1, meta description, and image alts confirmed still accurate; kept the change small.
+
+**Keyword notes:** No GSC export present (`docs/gsc-latest.csv` missing) — watchlist maintained from the seed list above, with a new row added for "ecommerce technical seo checklist" targeting this week's post.
+
+**GEO / LLM crawlers:** `llms.txt` reviewed — services, results, and contact info current, no changes needed. `robots.txt` confirmed still allowing GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-Web, anthropic-ai, PerplexityBot, Google-Extended, Applebot-Extended, Bingbot, CCBot.
+
+**Backlink / directory batch — submit these (rotation 2 of 4, second pass):**
+1. **UpCity** — https://upcity.com/get-listed — Category: `Digital Marketing Agency`, service tags: TikTok Marketing, Amazon Marketing, Paid Search, Paid Social, Shopify, SEO. Confirm the week-of-2026-08-24 listing is live; add the new technical SEO post as a portfolio link if the profile supports one.
+2. **Agency Spotter** — https://www.agencyspotter.com/claim-agency — Category: `Digital Marketing`, sub-specialty: E-commerce Marketing. Confirm live status from the week-of-2026-08-24 submission; refresh the description to the paste below if it's still the older short version.
+3. **Crunchbase** — https://www.crunchbase.com/add-new — Organization type: `Company`, Industry: `Marketing`, `E-Commerce`. Confirm the week-of-2026-08-17 organization profile is live; short description field: "AI-run, full-service TikTok Shop and performance-marketing agency for US & UK e-commerce brands. $100M+ revenue driven across 80+ brands." Website: https://www.adeptecom.com
+4. **LinkedIn company page** — https://www.linkedin.com/company/setup/new/ — Confirm the week-of-2026-08-17 page is live and complete; refresh the About section with the paste below and confirm Services (TikTok Shop, Amazon, Meta Ads, Google Ads, Shopify, SEO, AI Automation) are listed in the Products/Services tab.
+5. **Google Business Profile** — https://www.google.com/business/ — Confirm the listing is live and complete (hours, services, Doha address); add the new technical SEO post as a Google Business post if the profile is active.
+
+_Paste description for all of the above:_ "Adeptecom is an AI-run, full-service TikTok Shop and performance-marketing agency for US & UK e-commerce brands. We connect every channel through its official API and run continuous audits, research, and scaling with AI agents — TikTok Shop & affiliate, Amazon brand & PPC, Meta & Google Ads, Shopify, and SEO. $100M+ revenue driven across 80+ brands." Website: https://www.adeptecom.com
+
+_Next rotation (week of 2026-09-28) continues the second pass: Yellow Pages, Qatar/UAE local business directories, Clutch._
 
 ---
 
