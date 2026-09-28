@@ -18,10 +18,31 @@ Running log maintained by the weekly SEO routine. Newest entries on top.
 | shopify store management | Med | service-shopify.html | |
 | shopify conversion rate optimization | Med | service-shopify.html, blog-shopify-cro-leaks.html | |
 | best tiktok shop agency / how to choose | High | service-tiktok-shop.html, blog-best-tiktok-shop-agencies-2026.html | new post targets this buyer-intent long-tail this week |
-| ai marketing automation agency | High | service-ai-automation.html | differentiator |
+| ai marketing automation agency | High | service-ai-automation.html, blog-ai-marketing-automation-agency.html | new post targets this differentiator term this week; AI automation page had no supporting blog content or FAQ link before this |
 | us uk tiktok creators | Med | service-tiktok-shop.html | |
 
 _No `docs/gsc-latest.csv` found this run — table maintained from the seed keyword list. Drop real Google Search Console export at that path to switch to live query data (top queries, clicks, impressions, position)._
+
+---
+
+## Week of 2026-09-28
+**New blog post:** [AI marketing automation agency: what to actually expect in 2026](https://www.adeptecom.com/blog-ai-marketing-automation-agency.html) — `blog-ai-marketing-automation-agency.html`. The original 8-post calendar and every subsequent per-page rotation had left "ai marketing automation agency" — a High-priority seed keyword and stated differentiator — without any dedicated post, and `service-ai-automation.html` had no supporting blog content or internal link at all (stale since the 2026-08-11 setup). This post breaks down what a real AI-run agency does day to day versus marketing claims, and lists questions buyers should ask before hiring one. Card added to top of blog.html grid; URL added to sitemap.xml; homepage + blog.html lastmod bumped to 2026-09-28.
+
+**On-page refresh:** `service-ai-automation.html` — added a new FAQ entry ("What should I ask before hiring an 'AI-run' agency?") linking into the new post, and bumped its sitemap lastmod to 2026-09-28. Single H1, meta description, and image alt confirmed still accurate; kept the change small.
+
+**Keyword notes:** No GSC export present (`docs/gsc-latest.csv` missing) — watchlist maintained from the seed list above, with the "ai marketing automation agency" row updated to point at this week's post. This was the clearest remaining gap: every other seed keyword already had a supporting post or FAQ link from prior weeks.
+
+**GEO / LLM crawlers:** `llms.txt` reviewed — services, results, and contact info current, no changes needed. `robots.txt` confirmed still allowing GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-Web, anthropic-ai, PerplexityBot, Google-Extended, Applebot-Extended, Bingbot, CCBot.
+
+**Backlink / directory batch — submit these (rotation 2 of 4, second pass, continued):**
+1. **Yellow Pages** — https://www.yellowpages.com/claim-a-business — Category: `Marketing Consultants` / `Internet Marketing & Advertising`. Confirm the week-of-2026-09-07 listing is live; refresh the description to the paste below if it's still an older short version.
+2. **Qatar local business directory (Qatar Yellow Pages)** — https://www.qataryp.com/ — Category: `Marketing & Advertising Agencies`. Confirm the week-of-2026-09-07 listing is live; paste the description below and confirm the Doha office address is listed.
+3. **UAE local business directory (Yellow Pages UAE)** — https://www.yellowpages-uae.com/ — Category: `Advertising & Marketing`. Confirm live status from the week-of-2026-09-07 submission; refresh the description to the paste below; website field: https://www.adeptecom.com
+4. **Clutch** — https://clutch.co/directory/submit-service-provider — Category: `Digital Marketing Agencies` (sub-filter: Social Media Marketing / E-commerce Marketing). Confirm the week-of-2026-08-17 submission is live; add the new AI automation post as a portfolio link if the profile supports one.
+
+_Paste description for all of the above:_ "Adeptecom is an AI-run, full-service TikTok Shop and performance-marketing agency for US & UK e-commerce brands. We connect every channel through its official API and run continuous audits, research, and scaling with AI agents — TikTok Shop & affiliate, Amazon brand & PPC, Meta & Google Ads, Shopify, and SEO. $100M+ revenue driven across 80+ brands." Website: https://www.adeptecom.com
+
+_Next rotation (week of 2026-10-05) restarts the full list: Bing Places, DesignRush, Sortlist, GoodFirms, The Manifest (third pass — this pass double-checks live status and refreshes descriptions where needed)._
 
 ---
 
