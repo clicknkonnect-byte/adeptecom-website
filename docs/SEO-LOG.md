@@ -20,8 +20,32 @@ Running log maintained by the weekly SEO routine. Newest entries on top.
 | best tiktok shop agency / how to choose | High | service-tiktok-shop.html, blog-best-tiktok-shop-agencies-2026.html | new post targets this buyer-intent long-tail this week |
 | ai marketing automation agency | High | service-ai-automation.html, blog-ai-marketing-automation-agency.html | new post targets this differentiator term this week; AI automation page had no supporting blog content or FAQ link before this |
 | us uk tiktok creators | Med | service-tiktok-shop.html | |
+| tiktok affiliate agency | High | service-tiktok-shop.html, service-affiliate.html, blog-affiliate-creator-offers.html | seed keyword was missing from this table entirely; `service-affiliate.html` also had zero internal links into blog content until this week — fixed with a new FAQ entry |
+| tiktok ads agency / spark ads | Med | service-tiktok-ads.html, blog-tiktok-spark-ads-vs-boosting.html | new post targets this long-tail this week; `service-tiktok-ads.html` had no supporting blog content or FAQ link before this |
 
 _No `docs/gsc-latest.csv` found this run — table maintained from the seed keyword list. Drop real Google Search Console export at that path to switch to live query data (top queries, clicks, impressions, position)._
+
+---
+
+## Week of 2026-10-09
+**New blog post:** [Spark Ads vs. boosting a post: what actually scales on TikTok](https://www.adeptecom.com/blog-tiktok-spark-ads-vs-boosting.html) &mdash; `blog-tiktok-spark-ads-vs-boosting.html`. `service-tiktok-ads.html` (TikTok Ads &amp; Spark Ads) was the last service page on the site with zero supporting blog content or internal link into any post &mdash; the same gap pattern that drove the pick in prior weeks for Amazon, Shopify, Meta, Google Ads, SEO, and AI automation. This post explains why Spark Ads outperform TikTok's native "boost" button, what has to be true (proven organic performance, linked Shop tab, a valid creator authorization code, clean pixel/API events) before ad budget goes near a post, and how we structure Spark Ads + GMV Max campaigns to scale. Card added to top of blog.html grid; URL added to sitemap.xml; homepage + blog.html lastmod bumped to 2026-10-09.
+
+**On-page refresh:** `service-affiliate.html` &mdash; while auditing which service pages still had no blog links (the search that surfaced the pick above), found that `service-affiliate.html` also had zero internal links into blog content, even though `blog-affiliate-creator-offers.html` ("Hybrid vs commission: a creator offer that actually converts") covers its exact topic and had never been linked from it. Added a new FAQ entry ("Hybrid or straight commission &mdash; which offer should I run?") linking into that post, and bumped its sitemap lastmod to 2026-10-09. Also added a reciprocal FAQ entry on `service-tiktok-ads.html` linking into this week's new post, and bumped its sitemap lastmod to 2026-10-09. Single H1, meta descriptions, and image alts confirmed still accurate on both pages; kept each change small.
+
+**Keyword notes:** No GSC export present (`docs/gsc-latest.csv` missing) &mdash; watchlist maintained from the seed list above. Two gaps fixed in the table this week: "tiktok affiliate agency" was a seed keyword that had been missing from the table entirely since setup, and a new row was added for "tiktok ads agency / spark ads" targeting this week's post.
+
+**GEO / LLM crawlers:** `llms.txt` reviewed &mdash; services, results, and contact info current, no changes needed. `robots.txt` confirmed still allowing GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-Web, anthropic-ai, PerplexityBot, Google-Extended, Applebot-Extended, Bingbot, CCBot.
+
+**Backlink / directory batch &mdash; submit these (rotation 1 of 4, third pass):**
+1. **Bing Places** &mdash; https://www.bingplaces.com/ &mdash; Category: `Marketing Agency` / `Advertising Agency`. Confirm the listing from the week-of-2026-09-14 pass is still live; refresh the description to the paste below if it's gone stale.
+2. **DesignRush** &mdash; https://www.designrush.com/agency/get-listed &mdash; Category: `Digital Marketing Agencies` (sub-filter: E-commerce Marketing / Social Media Marketing). Confirm the week-of-2026-09-14 listing is live; add the new Spark Ads post as a portfolio link if the profile supports one.
+3. **Sortlist** &mdash; https://www.sortlist.com/agency/create &mdash; Category: `E-commerce Marketing` / `Social Media Marketing`. Confirm live status from the week-of-2026-09-14 submission; paste the description below if the profile needs completing.
+4. **GoodFirms** &mdash; https://www.goodfirms.co/add-company &mdash; Category: `Digital Marketing` &rarr; `E-commerce Marketing Agencies`. Confirm live status; add the new Spark Ads post as a portfolio/case-study link if the profile supports one.
+5. **The Manifest** &mdash; https://themanifest.com/add-company &mdash; Category: `Digital Marketing` &rarr; `E-commerce Marketing Agencies`. Confirm live status from the week-of-2026-09-14 submission; refresh the description to the paste below if needed.
+
+_Paste description for all of the above:_ "Adeptecom is an AI-run, full-service TikTok Shop and performance-marketing agency for US & UK e-commerce brands. We connect every channel through its official API and run continuous audits, research, and scaling with AI agents — TikTok Shop & affiliate, Amazon brand & PPC, Meta & Google Ads, Shopify, and SEO. $100M+ revenue driven across 80+ brands." Website: https://www.adeptecom.com
+
+_Next rotation (week of 2026-10-16) continues the third pass: UpCity, Agency Spotter, Crunchbase, LinkedIn company page, Google Business Profile._
 
 ---
 
