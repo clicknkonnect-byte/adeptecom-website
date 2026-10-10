@@ -2,6 +2,9 @@
 
 Running log maintained by the weekly SEO routine. Newest entries on top.
 
+## 2026-10-10 — Backlink status correction
+Owner confirmed none of the weekly directory/citation batches logged below have actually been submitted yet — every prior week's "confirm the week-of-X listing is live" language was presumptive, not verified. Treat every directory in the rotation as a **first-time submission**, not a refresh, until a week's log explicitly says it was submitted. Also: **Google Business Profile is excluded from the rotation going forward** per the owner (not a fit for this business) — removed from this week's "next rotation" pointer and will not be reintroduced.
+
 ## 2026-10-10 — Google Search Console audit (indexing + sitemap fix)
 Connected GSC for `sc-domain:adeptecom.com` and audited indexing directly. Findings and fixes:
 1. **Sitemap was never correctly registered.** GSC had 3 sitemap entries: `http://adeptecom.com/sitemap.xml` (wrong protocol/host — 22 submitted, 0 indexed) and two bogus entries where the bare homepage URLs (`https://adeptecom.com/`, `https://www.adeptecom.com/`) had been submitted as if they were sitemap feeds (both erroring). The correct `https://www.adeptecom.com/sitemap.xml` had **never** been submitted. Fixed: submitted it via the API. The two bogus entries can't be deleted via API — remove them manually in GSC under Sitemaps (⋮ menu → Remove sitemap) when convenient; harmless but worth tidying.
@@ -54,7 +57,7 @@ _No `docs/gsc-latest.csv` found this run — table maintained from the seed keyw
 
 _Paste description for all of the above:_ "Adeptecom is an AI-run, full-service TikTok Shop and performance-marketing agency for US & UK e-commerce brands. We connect every channel through its official API and run continuous audits, research, and scaling with AI agents — TikTok Shop & affiliate, Amazon brand & PPC, Meta & Google Ads, Shopify, and SEO. $100M+ revenue driven across 80+ brands." Website: https://www.adeptecom.com
 
-_Next rotation (week of 2026-10-16) continues the third pass: UpCity, Agency Spotter, Crunchbase, LinkedIn company page, Google Business Profile._
+_Next rotation (week of 2026-10-16) continues the third pass: UpCity, Agency Spotter, Crunchbase, LinkedIn company page. (Google Business Profile removed from rotation per owner — see 2026-10-10 correction note above.)_
 
 ---
 
