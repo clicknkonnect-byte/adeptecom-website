@@ -26,6 +26,7 @@ Connected GSC for `sc-domain:adeptecom.com` and audited indexing directly. Findi
 | meta ads agency ecommerce | Med | service-meta-ads.html | |
 | meta ads roas / attribution | Med | service-meta-ads.html, blog-meta-ads-roas-truth.html | new post targets this long-tail this week |
 | google ads ecommerce agency | Med | service-google-ads.html | |
+| performance max ecommerce | Med | service-google-ads.html, blog-google-performance-max-ecommerce.html | new post targets this long-tail this week |
 | google merchant center disapprovals | Med | service-google-ads.html, blog-google-merchant-center-disapprovals.html | new post targets this long-tail this week |
 | shopify store management | Med | service-shopify.html | |
 | shopify conversion rate optimization | Med | service-shopify.html, blog-shopify-cro-leaks.html | |
@@ -36,6 +37,27 @@ Connected GSC for `sc-domain:adeptecom.com` and audited indexing directly. Findi
 | tiktok ads agency / spark ads | Med | service-tiktok-ads.html, blog-tiktok-spark-ads-vs-boosting.html | new post targets this long-tail this week; `service-tiktok-ads.html` had no supporting blog content or FAQ link before this |
 
 _No `docs/gsc-latest.csv` found this run — table maintained from the seed keyword list. Drop real Google Search Console export at that path to switch to live query data (top queries, clicks, impressions, position)._
+
+---
+
+## Week of 2026-10-12
+**New blog post:** [Performance Max for e-commerce: how to stop it wasting your budget](https://www.adeptecom.com/blog-google-performance-max-ecommerce.html) &mdash; `blog-google-performance-max-ecommerce.html`. `service-google-ads.html` already had an FAQ answer ("Is Performance Max worth running?") but no supporting blog content or internal link behind it &mdash; the same content-gap pattern that drove picks in prior weeks for every other service page. This post covers why PMax drains budget quietly compared to Search/Shopping, the Merchant Center feed's outsized influence on it, splitting asset groups by category/margin instead of running one catalog-wide group, the five guardrails that matter (brand exclusions, account-level negatives, audience signals vs. targeting, placement exclusions, a real ROAS floor by asset group), when to pull a hero SKU or new launch into its own campaign, and why the blended ROAS number in the default dashboard hides exactly these problems. Card added to top of blog.html grid; URL added to sitemap.xml; homepage + blog.html lastmod bumped to 2026-10-12.
+
+**On-page refresh:** `service-google-ads.html` &mdash; linked the existing "Is Performance Max worth running?" FAQ answer into the new post, and tightened the hero image alt text from the generic "Google Ads" to "Google Ads Search, Shopping, and Performance Max campaign structure". Single H1 and meta description confirmed still accurate and specific; bumped sitemap lastmod to 2026-10-12. Kept the change small.
+
+**Keyword notes:** No GSC export present (`docs/gsc-latest.csv` missing) &mdash; watchlist maintained from the seed list above, with a new row added for "performance max ecommerce" targeting this week's post. Every seed keyword now has a supporting post and internal link; this week's pick closed the last FAQ-without-a-post gap found on `service-google-ads.html`.
+
+**GEO / LLM crawlers:** `llms.txt` reviewed &mdash; services, results, and contact info current, no changes needed. `robots.txt` confirmed still allowing GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot, Google-Extended, Bingbot, CCBot (plus ChatGPT-User, Claude-Web, anthropic-ai, Applebot-Extended).
+
+**Backlink / directory batch &mdash; submit these (rotation 2 of 4, third pass):**
+1. **UpCity** &mdash; https://upcity.com/get-listed &mdash; Category: `Digital Marketing Agency`, service tags: TikTok Marketing, Amazon Marketing, Paid Search, Paid Social, Shopify. Confirm the week-of-2026-09-21 listing is still live; add the new Performance Max post as a portfolio link if the profile supports one.
+2. **Agency Spotter** &mdash; https://www.agencyspotter.com/claim-agency &mdash; Category: `Digital Marketing`, sub-specialty: E-commerce Marketing. Confirm live status from the week-of-2026-09-21 submission; refresh the description to the paste below if it's still an older short version.
+3. **Crunchbase** &mdash; https://www.crunchbase.com/add-new &mdash; Organization type: `Company`, Industry: `Marketing`, `E-Commerce`. Confirm the organization profile submitted week-of-2026-09-21 is live; short description field: "AI-run, full-service TikTok Shop and performance-marketing agency for US & UK e-commerce brands. $100M+ revenue driven across 80+ brands." Website: https://www.adeptecom.com
+4. **LinkedIn company page** &mdash; https://www.linkedin.com/company/setup/new/ &mdash; Confirm the page from week-of-2026-09-21 is live and complete; refresh the About section with the paste below and confirm Services (TikTok Shop, Amazon, Meta Ads, Google Ads, Shopify, AI Automation) are listed in the Products/Services tab.
+
+_Paste description for all of the above:_ "Adeptecom is an AI-run, full-service TikTok Shop and performance-marketing agency for US & UK e-commerce brands. We connect every channel through its official API and run continuous audits, research, and scaling with AI agents — TikTok Shop & affiliate, Amazon brand & PPC, Meta & Google Ads, Shopify, and SEO. $100M+ revenue driven across 80+ brands." Website: https://www.adeptecom.com
+
+_Next rotation (week of 2026-10-19) continues the third pass: Bing Places, Trustpilot, Shopify Partners directory, TikTok Shop Partner directory, Yelp._
 
 ---
 
