@@ -35,8 +35,31 @@ Connected GSC for `sc-domain:adeptecom.com` and audited indexing directly. Findi
 | us uk tiktok creators | Med | service-tiktok-shop.html | |
 | tiktok affiliate agency | High | service-tiktok-shop.html, service-affiliate.html, blog-affiliate-creator-offers.html | seed keyword was missing from this table entirely; `service-affiliate.html` also had zero internal links into blog content until this week — fixed with a new FAQ entry |
 | tiktok ads agency / spark ads | Med | service-tiktok-ads.html, blog-tiktok-spark-ads-vs-boosting.html | new post targets this long-tail this week; `service-tiktok-ads.html` had no supporting blog content or FAQ link before this |
+| tiktok gmv max | Med | service-tiktok-shop.html, blog-tiktok-gmv-max-guide.html | new post targets this long-tail this week; GMV Max was named in the service page's meta description and schema since setup but had no supporting post or FAQ link until now |
 
 _No `docs/gsc-latest.csv` found this run — table maintained from the seed keyword list. Drop real Google Search Console export at that path to switch to live query data (top queries, clicks, impressions, position)._
+
+---
+
+## Week of 2026-10-19
+**New blog post:** [TikTok GMV Max: how to use it without wasting budget](https://www.adeptecom.com/blog-tiktok-gmv-max-guide.html) &mdash; `blog-tiktok-gmv-max-guide.html`. GMV Max has been named in `service-tiktok-shop.html`'s meta description and Service schema since the site's 2026-08-11 setup, but had no dedicated post or FAQ link behind it &mdash; the same content-gap pattern that has driven every post pick since the original 8-post calendar finished. This post covers what GMV Max actually controls versus a standard TikTok Ads campaign, why it burns budget on shops with no proven content to draw from, the content-pipeline sequencing that should happen before it's switched on, a real ROI floor (priced on true margin, not list price), and how it sits alongside Spark Ads and LIVE rather than replacing them. Card added to top of blog.html grid; URL added to sitemap.xml; homepage + blog.html lastmod bumped to 2026-10-19.
+
+**On-page refresh:** `service-tiktok-shop.html` &mdash; added a new FAQ entry ("Is GMV Max worth turning on?") linking into the new post, and bumped its sitemap lastmod to 2026-10-19. Single H1, meta description, and image alt confirmed still accurate and specific; kept the change small.
+
+**Keyword notes:** No GSC export present (`docs/gsc-latest.csv` missing) &mdash; watchlist maintained from the seed list above, with a new row added for "tiktok gmv max" targeting this week's post. This closed the last named-but-unsupported feature gap on `service-tiktok-shop.html`; every seed keyword and every GMV Max/Spark Ads/PMax-style feature mention across the service pages now has a supporting post.
+
+**GEO / LLM crawlers:** `llms.txt` reviewed &mdash; services, results, and contact info current, no changes needed. `robots.txt` confirmed still allowing GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot, Google-Extended, Bingbot, CCBot (plus ChatGPT-User, Claude-Web, anthropic-ai, Applebot-Extended).
+
+**Backlink / directory batch &mdash; submit these (rotation 3 of 4, third pass):**
+1. **Bing Places** &mdash; https://www.bingplaces.com/ &mdash; Category: `Marketing Agency` / `Advertising Agency`. Per the 2026-10-10 correction note, treat this as a first-time submission unless a prior week's log explicitly confirmed it went live; paste the description below.
+2. **Trustpilot** &mdash; https://business.trustpilot.com/signup &mdash; Category: `Marketing Agency`. First-time submission (per 2026-10-10 correction note); paste the description below; website field: https://www.adeptecom.com
+3. **Shopify Partners directory** &mdash; https://www.shopify.com/partners/directory &mdash; Apply as a Shopify Partner agency. Category: `Marketing & Sales` / `Conversion rate optimization`. First-time submission; paste the description below.
+4. **TikTok Shop Partner directory** &mdash; https://partner.tiktokshop.com/ &mdash; Apply as an agency partner (Partner Center). Category: `Marketing Agency Partner`. First-time submission; paste the description below; add the new GMV Max post as supporting content/case material if the application form allows a portfolio link.
+5. **Yelp** &mdash; https://biz.yelp.com/ &mdash; Category: `Marketing Agency`. First-time submission; paste the description below; website field: https://www.adeptecom.com
+
+_Paste description for all of the above:_ "Adeptecom is an AI-run, full-service TikTok Shop and performance-marketing agency for US & UK e-commerce brands. We connect every channel through its official API and run continuous audits, research, and scaling with AI agents — TikTok Shop & affiliate, Amazon brand & PPC, Meta & Google Ads, Shopify, and SEO. $100M+ revenue driven across 80+ brands." Website: https://www.adeptecom.com
+
+_Next rotation (week of 2026-10-26) continues the third pass: Yellow Pages, Qatar/UAE local business directories, Clutch. (Google Business Profile remains excluded from the rotation per the owner — see 2026-10-10 correction note above.)_
 
 ---
 
