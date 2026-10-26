@@ -36,8 +36,30 @@ Connected GSC for `sc-domain:adeptecom.com` and audited indexing directly. Findi
 | tiktok affiliate agency | High | service-tiktok-shop.html, service-affiliate.html, blog-affiliate-creator-offers.html | seed keyword was missing from this table entirely; `service-affiliate.html` also had zero internal links into blog content until this week — fixed with a new FAQ entry |
 | tiktok ads agency / spark ads | Med | service-tiktok-ads.html, blog-tiktok-spark-ads-vs-boosting.html | new post targets this long-tail this week; `service-tiktok-ads.html` had no supporting blog content or FAQ link before this |
 | tiktok gmv max | Med | service-tiktok-shop.html, blog-tiktok-gmv-max-guide.html | new post targets this long-tail this week; GMV Max was named in the service page's meta description and schema since setup but had no supporting post or FAQ link until now |
+| meta advantage+ shopping | Med | service-meta-ads.html, blog-meta-advantage-plus-shopping.html | new post targets this long-tail this week; mirrors the PMax (Google) and GMV Max (TikTok) pattern — Advantage+ had no supporting post or FAQ link on `service-meta-ads.html` before this |
 
 _No `docs/gsc-latest.csv` found this run — table maintained from the seed keyword list. Drop real Google Search Console export at that path to switch to live query data (top queries, clicks, impressions, position)._
+
+---
+
+## Week of 2026-10-26
+**New blog post:** [Meta Advantage+ Shopping campaigns: what they automate (and don't)](https://www.adeptecom.com/blog-meta-advantage-plus-shopping.html) &mdash; `blog-meta-advantage-plus-shopping.html`. Mirrors the content-gap pattern that drove the Performance Max (Google) and GMV Max (TikTok) posts: Advantage+ Shopping is Meta's current default recommendation for e-commerce campaigns, but `service-meta-ads.html` had no supporting post or FAQ link behind it. This post covers what Advantage+ actually automates versus a manual campaign, the weak-input failure modes that quietly burn budget (noisy pixel/CAPI events, messy catalog attributes, blended reporting masking per-SKU performance), five guardrails that still need a human (event-quality audit, catalog hygiene, creative variety over volume, budget segmentation by product tier, a real exclusion list), and how it fits alongside manually structured campaigns rather than replacing the account. Card added to top of blog.html grid; URL added to sitemap.xml; homepage + blog.html lastmod bumped to 2026-10-26.
+
+**On-page refresh:** `service-meta-ads.html` &mdash; added a new FAQ entry ("Should I run Advantage+ Shopping or a manual campaign?") linking into the new post, and bumped its sitemap lastmod to 2026-10-26. Single H1, meta description, and image alt confirmed still accurate and specific; kept the change small.
+
+**Keyword notes:** No GSC export present (`docs/gsc-latest.csv` missing) &mdash; watchlist maintained from the seed list above, with a new row added for "meta advantage+ shopping" targeting this week's post. This closed the last named-but-unsupported automated-buying feature gap across the three paid-social/search service pages (Meta, Google, TikTok all now have a post behind their respective automated campaign type).
+
+**GEO / LLM crawlers:** `llms.txt` reviewed &mdash; services, results, and contact info current, no changes needed. `robots.txt` confirmed still allowing GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot, Google-Extended, Bingbot, CCBot (plus ChatGPT-User, Claude-Web, anthropic-ai, Applebot-Extended).
+
+**Backlink / directory batch &mdash; submit these (rotation 4 of 4, third pass):**
+1. **Yellow Pages** &mdash; https://www.yellowpages.com/claim-a-business &mdash; Category: `Marketing Consultants` / `Internet Marketing & Advertising`. Per the 2026-10-10 correction note, treat as a first-time submission unless a prior week's log explicitly confirmed it went live; paste the description below.
+2. **Qatar local business directory (Qatar Yellow Pages)** &mdash; https://www.qataryp.com/ &mdash; Category: `Marketing & Advertising Agencies`. First-time submission; paste the description below and list the Doha office address.
+3. **UAE local business directory (Yellow Pages UAE)** &mdash; https://www.yellowpages-uae.com/ &mdash; Category: `Advertising & Marketing`. First-time submission; paste the description below; website field: https://www.adeptecom.com
+4. **Clutch** &mdash; https://clutch.co/directory/submit-service-provider &mdash; Category: `Digital Marketing Agencies` (sub-filter: Social Media Marketing / E-commerce Marketing). First-time submission; paste the description below; add the new Advantage+ post as a portfolio link if the profile supports one.
+
+_Paste description for all of the above:_ "Adeptecom is an AI-run, full-service TikTok Shop and performance-marketing agency for US & UK e-commerce brands. We connect every channel through its official API and run continuous audits, research, and scaling with AI agents — TikTok Shop & affiliate, Amazon brand & PPC, Meta & Google Ads, Shopify, and SEO. $100M+ revenue driven across 80+ brands." Website: https://www.adeptecom.com
+
+_Next rotation (week of 2026-11-02) restarts the full list, fourth pass: Bing Places, DesignRush, Sortlist, GoodFirms, The Manifest. (Google Business Profile remains excluded from the rotation per the owner — see 2026-10-10 correction note above.)_
 
 ---
 
