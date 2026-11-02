@@ -37,8 +37,31 @@ Connected GSC for `sc-domain:adeptecom.com` and audited indexing directly. Findi
 | tiktok ads agency / spark ads | Med | service-tiktok-ads.html, blog-tiktok-spark-ads-vs-boosting.html | new post targets this long-tail this week; `service-tiktok-ads.html` had no supporting blog content or FAQ link before this |
 | tiktok gmv max | Med | service-tiktok-shop.html, blog-tiktok-gmv-max-guide.html | new post targets this long-tail this week; GMV Max was named in the service page's meta description and schema since setup but had no supporting post or FAQ link until now |
 | meta advantage+ shopping | Med | service-meta-ads.html, blog-meta-advantage-plus-shopping.html | new post targets this long-tail this week; mirrors the PMax (Google) and GMV Max (TikTok) pattern — Advantage+ had no supporting post or FAQ link on `service-meta-ads.html` before this |
+| black friday / cyber monday tiktok shop & amazon | Med | service-tiktok-shop.html, service-amazon.html, blog-bfcm-2026-checklist.html | new seasonal post targets this week; timely for the Nov–Dec peak-selling window, first post to cover both channels' platform-specific deadlines (FBA cutoffs, deal submission windows) in one place |
 
 _No `docs/gsc-latest.csv` found this run — table maintained from the seed keyword list. Drop real Google Search Console export at that path to switch to live query data (top queries, clicks, impressions, position)._
+
+---
+
+## Week of 2026-11-02
+**New blog post:** [Black Friday & Cyber Monday 2026: the TikTok Shop & Amazon checklist](https://www.adeptecom.com/blog-bfcm-2026-checklist.html) &mdash; `blog-bfcm-2026-checklist.html`. With the original 8-post calendar long finished and every seed keyword/named feature already covered, this week picked a timely seasonal gap instead: BFCM is three to four weeks out and both TikTok Shop and Amazon have hard, platform-set deadlines (FBA inbound cutoffs, Lightning Deal and Shop promotion submission windows, ad-budget cold-start risk) that nothing on the site addressed. The post orders prep by lead time &mdash; the slowest platform deadlines first &mdash; covering TikTok Shop (inventory buffer, early deal submission, creator briefs, gradual GMV Max/Spark Ads budget scaling, LIVE slots) and Amazon (FBA cutoffs, deal program windows, PPC budget headroom, listing/A+ compliance against live pricing) separately, then shared guardrails (tracking health, support capacity, return policy visibility, post-sale retention) and a one-week-out final check. Internal links into the existing GMV Max and Amazon PPC posts, plus a CTA link into `service-tiktok-shop.html`. Card added to top of blog.html grid; URL added to sitemap.xml; homepage + blog.html lastmod bumped to 2026-11-02.
+
+**On-page refresh:** `service-tiktok-shop.html` &mdash; added a new FAQ entry ("How early should we start prepping for Black Friday / Cyber Monday?") linking into the new post, and bumped its sitemap lastmod to 2026-11-02. Single H1, meta description, and image alt confirmed still accurate; kept the change small.
+
+**Keyword notes:** No GSC export present (`docs/gsc-latest.csv` missing) &mdash; watchlist maintained from the seed list above, with a new row added for "black friday / cyber monday tiktok shop & amazon" targeting this week's post. Every original seed keyword and named platform feature already has a supporting post from prior weeks; this pick was driven by seasonal timing instead of a remaining content gap.
+
+**GEO / LLM crawlers:** `llms.txt` reviewed &mdash; services, results, and contact info current, no changes needed. `robots.txt` confirmed still allowing GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot, Google-Extended, Bingbot, CCBot (plus ChatGPT-User, Claude-Web, anthropic-ai, Applebot-Extended).
+
+**Backlink / directory batch &mdash; submit these (rotation 1 of 4, fourth pass):**
+1. **Bing Places** &mdash; https://www.bingplaces.com/ &mdash; Category: `Marketing Agency` / `Advertising Agency`. Per the 2026-10-10 correction note, every prior "confirm it's live" instruction was presumptive; treat as a first-time submission until confirmed otherwise. Paste the description below.
+2. **DesignRush** &mdash; https://www.designrush.com/agency/get-listed &mdash; Category: `Digital Marketing Agencies` (sub-filter: E-commerce Marketing / Social Media Marketing). First-time submission; paste the description below; add the new BFCM checklist post as a portfolio link if the profile supports one.
+3. **Sortlist** &mdash; https://www.sortlist.com/agency/create &mdash; Category: `E-commerce Marketing` / `Social Media Marketing`. First-time submission; paste the description below.
+4. **GoodFirms** &mdash; https://www.goodfirms.co/add-company &mdash; Category: `Digital Marketing` &rarr; `E-commerce Marketing Agencies`. First-time submission; paste the description below; add the new post as a portfolio/case-study link if the profile supports one.
+5. **The Manifest** &mdash; https://themanifest.com/add-company &mdash; Category: `Digital Marketing` &rarr; `E-commerce Marketing Agencies`. First-time submission; paste the description below.
+
+_Paste description for all of the above:_ "Adeptecom is an AI-run, full-service TikTok Shop and performance-marketing agency for US & UK e-commerce brands. We connect every channel through its official API and run continuous audits, research, and scaling with AI agents — TikTok Shop & affiliate, Amazon brand & PPC, Meta & Google Ads, Shopify, and SEO. $100M+ revenue driven across 80+ brands." Website: https://www.adeptecom.com
+
+_Next rotation (week of 2026-11-09) continues the fourth pass: UpCity, Agency Spotter, Crunchbase, LinkedIn company page. (Google Business Profile remains excluded from the rotation per the owner — see 2026-10-10 correction note above.)_
 
 ---
 
